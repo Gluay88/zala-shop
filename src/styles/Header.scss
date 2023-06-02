@@ -1,0 +1,39 @@
+@import "./colors";
+@import "./fonts";
+@import "./mixins";
+
+.header {
+  margin-bottom: 2rem;
+  padding-top: 1rem;
+  position: sticky;
+  top: 0;
+  nav {
+    justify-content: space-between;
+    height: 5rem;
+    background-color: $main-color;
+
+    .ul-items {
+      list-style: none;
+
+      .li-items {
+        a {
+          text-decoration: none;
+          color: $secondary-color;
+          margin: 0 1rem;
+          font-size: 12px;
+        }
+        .orange {
+          color: orange;
+        }
+      }
+    }
+
+    .logo {
+      text-transform: uppercase;
+      margin: 1rem 0 0 0;
+      font-family: $font-select;
+      color: $purple-color;
+      font-size: 2rem;
+    }
+  }
+}
