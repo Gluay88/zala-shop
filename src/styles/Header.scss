@@ -4,17 +4,16 @@
 
 .header {
   margin-bottom: 2rem;
-  padding-top: 1rem;
   position: sticky;
   top: 0;
+  z-index: 200;
   nav {
     justify-content: space-between;
-    height: 5rem;
+    height: 7rem;
     background-color: $main-color;
-
+    padding-top: 1rem;
     .ul-items {
       list-style: none;
-
       .li-items {
         a {
           text-decoration: none;
@@ -27,7 +26,6 @@
         }
       }
     }
-
     .logo {
       text-transform: uppercase;
       margin: 1rem 0 0 0;
